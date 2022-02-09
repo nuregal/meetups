@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Event from "./Event";
 import events, { handleLocalStorage } from "../data/eventsData";
-import { meetup } from "../models/meetup";
 interface Props {
   updateCount(): void;
 }
